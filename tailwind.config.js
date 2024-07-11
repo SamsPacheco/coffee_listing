@@ -13,6 +13,7 @@ export default {
         'full': '100% 100%',
       },
       colors: {
+        "black-one": "#111315",
         "black-two": "#1B1D1F",
         "gray-color": "#6F757C",
         "white-blank": "#FEF7EE",

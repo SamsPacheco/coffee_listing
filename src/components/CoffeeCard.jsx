@@ -7,7 +7,7 @@ const CoffeeCard = ({data}) => {
     <>
       <div className='pb-10 '>
 
-        <figure className='flex justify-center relative h-[185px]'>
+        <figure className='flex justify-center relative'>
           <img src={image} alt="coffee-image" className='rounded-xl w-full' />
           {popular ? <span className='absolute bg-yellow-org left-3 top-3 px-3 py-1 rounded-xl text-xs font-semibold'>Popular</span> : <span></span>}
         </figure>
