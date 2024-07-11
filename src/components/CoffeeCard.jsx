@@ -5,9 +5,9 @@ const CoffeeCard = ({data}) => {
 
   return (
     <>
-      <div className='h-max w-[90%] sm:w-[75%] mx-auto pb-10'>
+      <div className='pb-10 '>
 
-        <figure className='sm:h-[175px] lg:h-[195px] flex justify-center relative'>
+        <figure className='flex justify-center relative h-[185px]'>
           <img src={image} alt="coffee-image" className='rounded-xl w-full' />
           {popular ? <span className='absolute bg-yellow-org left-3 top-3 px-3 py-1 rounded-xl text-xs font-semibold'>Popular</span> : <span></span>}
         </figure>
